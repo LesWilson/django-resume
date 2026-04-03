@@ -1,0 +1,4 @@
+web: gunicorn website.wsgi --log-file
+
+# stuff for database - we don't have one
+web: python manage.py migrate && gunicorn website.wsg
