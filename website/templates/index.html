@@ -14,14 +14,16 @@
         <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="{% static 'css/styles.css' %}" rel="stylesheet" />
+        <!-- <link href="{% static 'css/styles.css' %}" rel="stylesheet" /> -->
+        <link href="{% static 'css/bootstrap.css' %}" rel="stylesheet" />
+        <link href="{% static 'css/main.css' %}" rel="stylesheet" />
     </head>
     <body id="page-top">
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
             <a class="navbar-brand js-scroll-trigger" href="#page-top">
                 <span class="d-block d-lg-none">Les Wilson</span>
-                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="{% static 'assets/img/les_golf.jpg' %}" alt="..." /></span>
+                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="{% static 'assets/img/les_golf_resized.jpg' %}" alt="..." /></span>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
@@ -30,7 +32,6 @@
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
                 </ul>
             </div>
         </nav>
@@ -43,10 +44,11 @@
                         Les
                         <span class="text-primary">Wilson</span>
                     </h1>
-                    <div class="subheading mb-5">
+                    <div class="subheading mb-4">
                         Edinburgh, Scotland
                     </div>
-                    <p class="lead mb-5">I am experienced in leveraging agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
+                    <p class="lead mb-3">Semi retired, looking for short term contracts or part time night shift work.</p>
+                    <p class="lead mb-5">An experienced software engineer, focusing primarily on java and spring related frameworks.  Good knowledge of microservices, database technologies, sql and the full software lifecycle</p>
                     <div class="social-icons">
                         <a class="social-icon" href="https://www.linkedin.com/in/lw-234765/" target="_new"><i class="fab fa-linkedin-in"></i></a>
                         <a class="social-icon" href="https://github.com/leswilson" target="_new"><i class="fab fa-github"></i></a>
@@ -58,38 +60,414 @@
             <section class="resume-section" id="experience">
                 <div class="resume-section-content">
                     <h2 class="mb-5">Experience</h2>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Senior Web Developer</h3>
-                            <div class="subheading mb-3">Intelitec Solutions</div>
-                            <p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">March 2013 - Present</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Web Developer</h3>
-                            <div class="subheading mb-3">Intelitec Solutions</div>
-                            <p>Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">December 2011 - March 2013</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Junior Web Designer</h3>
-                            <div class="subheading mb-3">Shout! Media Productions</div>
-                            <p>Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration.</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">July 2010 - December 2011</span></div>
-                    </div>
+
+
                     <div class="d-flex flex-column flex-md-row justify-content-between">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">Web Design Intern</h3>
-                            <div class="subheading mb-3">Shout! Media Productions</div>
-                            <p>Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.</p>
+                            <h3 class="mb-0">Sorting Office (Christmas Temp)</h3>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">September 2008 - June 2010</span></div>
+                        <div class="flex-shrink-0"><span class="text-primary">November 2025 – December 2025</span></div>
                     </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <div class="subheading mb-3">
+                              Royal Mail
+                            </div>
+                            <p>Worked at the Royal Mail Sorting Office in Edinburgh as a Christmas Temp to supplement permanent staff members over the busy Christmas period.</p>
+                            <p>This was a night shift role (11pm - 8:30am), working in the large parcels area of the sorting office.  Involved working with other temps/staff to unload cages of parcels (up to 30kg in size) onto conveyor belts based on the destination postcode, where they would then be put in other cages sorted by postcode for distribution.</p>  
+                            <p>Nearing the end of the shift, we would take the sorted cages of parcels to the appropriate area, based on postcode, of the warehouse where they were loaded onto post office vans/trucks for delivery/onward transport.</p>
+                        </div>
+                    </div>
+
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Principal Software Engineer (Contract)</h3>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">March 2023 - July 2024</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <div class="subheading mb-3">
+                              Home Office
+                            </div>
+                            <p>Worked at the Home Office on a major program replacing key national infrastructure for the police.</p>
+                            <p>Initially worked directly with the head of engineering, as part of a team tasked with ensuring consistent standards and methods were applied across the program.  This involved reviewing existing code and making suggestions to ensure consistency and simplifying the code base across the different teams.</p>
+                            <p>Due to resourcing issues, took on the role of tech lead on a team tasked with producing common components within the program.  The initial task was to produce a common email service that microservices written by other teams could use (keeping the details of the smtp gateway hidden from the other services).  This allowed a service to send a message, following a specific json schema, using SQS to the email microservice which was parsed and validated before being formatted and sent to the home office common email gateway, handling any retries if required, finally sending an SQS response to the invoking service with the result. </p>
+                            <p>A second service was created to audit the email requests made from the other services.  This was a spring boot microservice, using SQS notifications on an s3 bucket.  Postgres was used to store all successful emails sent.</p>
+                            <p>We were also responsible for a broadcast service, used by various areas of the police to send important announcements to the appropriate areas of policing.  This had a react UI with a spring boot microservice handling the processing. Was involved with the initial design and development and also creatied an automated test suite using Cucumber to test the back end APIs</p>
+                            <p>Localstack and docker were used locally to simulate the various AWS components and postgres database.</p>
+                        </div>
+                    </div>
+
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Senior Software Engineer (Contract)</h3>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">January 2022 - March 2022</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <div class="subheading mb-3">
+                              DEFRA
+                            </div>
+                            <p>Worked at DEFRA for Capgemini on a project that dealt with Plant Exports for farmers.  It allowed them to apply online for export certificates and arrange for crop/soil inspections as part of the process.</p>
+                            <p>Worked as part of a team, helping to develop the required functionality, performing code reviews, estimation sessions and retrospectives.</p>
+                            <p>Took the lead on investigating a number of database concurrency issues within the code that had failed to be resolved before he joined the project.  These were resolved by changing the way the code performed database updates.  As part of the change, produced a POC using JMeter to replicate the current problem and then show the improved throughput using the updated code.  Held a session to explain to the team why the old code caused the problem and demonstrated the new code and how it resolved the issues.</p>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-1">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Capgemini UK - HMRC Market Unit</h3>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">September 2016 - April 2021</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1 subheading">
+                            Lead Engineer - Digital Transformation Centre
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-end text-secondary">December 2020 - April 2021</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-3">
+                        <div class="flex-grow-1">
+                            <p>Took on the new role of Lead Engineer for the DTC Area within the HMRC MU.  This was a Java focused area and the new role involved improving the way the teams developed applications and bringing in best practices for them.</p>
+                            <p>Helped onboard new staff who came from the Code Your Future initiative.  This involved mentoring them while learning java and spring and being their point of contact for questions in the early part of their career.</p>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1 subheading">
+                          External Guidance Team - HMRC Digital
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-end text-secondary">April 2020 - January 2021</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-3">
+                        <div class="flex-grow-1">
+                            <p>Worked within the External Guidance team, initially as a developer, then as a Tech Lead.</p>
+                            <p>The project allowed HMRC guidance writers to create, review and publish guidance to gov websites, without the need to set up a new dedicated site for each piece of guidance.</p>  
+                            <p>It was written in Scala with the Play Framework, neither of which I had worked with before, but quickly became a productive member of the team.</p>
+                            <p>Worked closely with the client to ensure deadlines were met and the correct functionality was developed.  Challenged decisions and provided alternatives which the client appreciated and took on board.</p>
+                        </div>
+                    </div>
+
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1 subheading">
+                            Head of Software Engineering - Public Sector Digital
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-end text-secondary">May 2018 - March 2020</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-3">
+                        <div class="flex-grow-1">
+                            <p>Took on the role of Head of Software Engineering for the Public Sector Digital unit within the HMRC Market Unit.</p>
+                            <p>The role focused on the engineering staff within the unit, who all worked on site at various clients across the UK, ensuring they were looked after and kept their training and skills up to date.</p>
+                            <p>It also involved recruitment and identifying potential roles that would ensure staff were kept interested and didn't stagnate in their role.</p>
+                            <p>The division was closed down after a reorganisation and I worked closely with the members of the unit and the wider HMRC market unit to ensure people were involved in any decision on where they would be relocated to within the business.</p>
+                        </div>
+                    </div>
+
+
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1 subheading">
+                            Senior Software Engineer - Home Office Croydon
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-end text-secondary">March 2017 - June 2018</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-3">
+                        <div class="flex-grow-1">
+                            <p>Worked on the program implementing a Freight/Tourist tracking application for UK Border Force.</p>
+                            <p>Joined the Data Onboarding team which was responsible for processing data from ferry and air freight providers.  Initially took on the task of refactoring a number of the microservices that processed the incoming data that had a lot of duplicated code performing the same function.  This was moved to a common library, greatly easing maintenance and simplifying the code base.</p>
+                            <p>Addressed performance issues with one of the main components of the system which stored and served data to the UI.  This involved completely changing the database schema, refactoring the code and simplifying how data was returned to the UI to reduce the reformatting needed to display the data on the screens.  This resulted in huge improvements in the time taken serving data to the UI.</p>
+                            <p>Took over as Tech Lead of the Rules team, which enabled the users to generate rules to help identify potentially suspect packages, freight and passengers.</p>
+                        </div>
+                    </div>
+
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1 subheading">
+                            Enterprise iPaaS Project
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-end text-secondary">February 2017 - March 2017</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-3">
+                        <div class="flex-grow-1">
+                            <p>While waiting for security clearance to come through, worked on the internal Enterprise iPaaS development, building a Spring/Camel code generator based on the Swagger CodeGen code base.  This allowed the team to adopt an interface first development approach and have the necessary code generated to implement those interfaces.</p>
+                            <p>Provided technical support to the more junior team members and helped them produce some proof of concept/demos of the platform accessing yammer and twitter.</p>
+                        </div>
+                    </div>
+
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1 subheading">
+                            Capgemini Reskill Academy
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-end text-secondary">December 2016 - January 2017</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-3">
+                        <div class="flex-grow-1">
+                            <p>Provided technical support to the people on the internal reskill academy during their technical exercises.  This involved discussing potential technical solutions with the teams and suggesting alternative approaches to get them thinking about the best way to take their ideas forward.  Helped with development of components of the applications when required to ease pressure on the teams.</p>
+                        </div>
+                    </div>
+
+
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1 subheading">
+                            Claim Process Redesign - DWP
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-end text-secondary">October 2016 - November 2016</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <p>Worked as part of a multi-disciplinary team redeveloping a Claim Process application for DWP.</p>
+                            <p>The project followed agile principles, with 2 week sprints, daily standups, burn down list and TDD.  Jira was used to manage the sprint tasks and GitLab was used for source control.</p>
+                            <p>Responsible for the Claim Submission Spring Boot microservice, which received data from the UI, stored it in the PostgreSQL database and sent a notification to an ActiveMQ queue.  Helped generate user acceptance tests using Cucumber to test the REST APIs. </p>
+                            <p>Due to budget issues within DWP, a number of projects, including this one, were put on hold/shelved to allow the customer to focus on higher priority business critical applications within the organisation.</p>
+                        </div>
+                    </div>
+
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Lead Java Developer (Contract)</h3>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">March 2016 – June 2016</span></div>
+                    </div>
+                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <div class="subheading mb-3">
+                              Draw Digital
+                            </div>
+                            <p>Draw is a digital agency who develop web sites and marketing for their clients.</p>
+                            <p>Worked as lead java developer in a team building a web based loan application tool for an Australian bank.  Worked on the java Rest API layer, defining and implementing the interface between the Angular UI and the java services layer.  The service layer interfaces with a number of external providers, Xero and MYOB to allow the applicant to login to their financial data provider and provide the application with access to it (using OAuth), addressify (www.addressify.com.au) to perform address lookup and validation, ABR Services (abr.business.gov.au/Webservices.aspx) to allow lookup and validation of a customer's business details, and custom APIs written by Demyst (demyst.com) to validate financial data (balance sheet, P&L, transactions) file uploads and perform credit checks of the customer data.  Accessing the third party providers was done using a mix of JSON, XML, OAuth 1.0a and 2 and REST APIs.</p>  
+                            <p>No customer/loan data was stored in the database, so the loan process involved generating csv files from data the applicant provides and sending them as email attachments to the bank's loan processing department.  Loan data submitted on each page was validated and signed, on the service layer, to ensure no data was tampered with when the final loan application was sent to the bank.</p>
+                            <p>Although not an Angular developer, Les made changes to the code when required.</p>
+                        </div>
+                    </div>
+
+ 
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Capco UK - Senior Java Developer (Contract)</h3>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">July 2013 – January 2016</span></div>
+                    </div>
+                     <div class="d-flex flex-column flex-md-row justify-content-between mb-3">
+                        <div class="flex-grow-1">
+                            <p>Capco is a global business and technology consultancy dedicated to the financial services industry.</p>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1 subheading">
+                            Regulatory Reporting Application
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-end text-secondary">July 2015 - January 2016</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-3">
+                        <div class="flex-grow-1">
+                            <p>Worked as the sole developer on enhancements to an existing Java/Spring application for a German bank to help with their regulatory reporting.  Involved weekly meetings with the client to agree requirements and regular releases to enable users to make better use of the system.  Converted the application to run against Oracle, as the original version only ran against MySQL.  Introduced liquibase to generate the database schema and altered domain class annotations to allow the same source to run against both MySQL and Oracle.  Enhancements followed TDD practises to ensure the new features met the requirements before giving them to the client to test.  Responsible for both front and back end changes to meet client requirements.</p>
+                        </div>
+                    </div>
+
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1 subheading">
+                            Banking Application
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-end text-secondary">May  2015 - June 2015</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-3">
+                        <div class="flex-grow-1">
+                            <p>Brought in to help with a development for a large bank that was running behind schedule, enabling the system to be delivered on time to the client.  The system had a Spring REST API back end with an AngularJS front end.</p>
+                            <p>Worked on a number of enhancements and bug fixes to the API code and improvements to performance of the system involving changes to the both AngularJS and API code, in some cases reducing data sent to the client by a factor of 10.</p>
+                        </div>
+                    </div>
+
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1 subheading">
+                            Task Management Application
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-end text-secondary">February 2015 - April 2015</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-3">
+                        <div class="flex-grow-1">
+                            <p>Tasked with rewriting an existing task management application.  Originally written as a prototype, it required rework to make it easier to maintain, enhance and sell to clients.  As part of the rewrite, evaluated the Meteor javascript framework and MongoDb, but due to lack of skills/support capability within the company, it was written as a Spring/Hibernate REST API back end with an AngularJS front end.  Took responsibility for the API.</p>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1 subheading">
+                            Edge Application
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-end text-secondary">July 2013 - January 2015</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <p>Worked as part of a team of 10 developing an application allowing banking clients to view their Operating Model and Portfolio of Projects, enabling them to record metrics (such as FTE, Budget etc) against their functions, applications and projects and set up project change to see how those changes impacted their Operating Model and metrics.  This allowed them to view their Target Operating Model over time and plan their change strategy.</p>
+                            <p>Developed a code generator to speed up development by automating repetitive CRUD code</p>
+                            <p>The project followed agile principles, including daily standups, 2 week sprints, burn down list and TDD.  It was deployed on AWS with a Jenkins server for continuous integration.</p>
+                            <p>Phase 1 was completed in March 2014.  From April, I was solely responsible for developing and supporting the application, including gathering further requirements, bug/enhancement tracking, and release management for multiple instances of the application being used by Capco's consultants.</p>
+                        </div>
+                    </div>
+
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Solutions Consultant</h3>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">April 2012 – June 2013</span></div>
+                    </div>
+                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <div class="subheading mb-3">
+                              Acromas Holdings (SAGA/AA)
+                            </div>
+                            <p>Acromas Holdings is the parent company of the Automobile Association and SAGA Health care/Holidays/Publishing.</p>
+                            <p>Worked as the lead developer, using Groovy and Grails, in a small team set up specifically to define future development methodologies and practises for the Acromas group.</p> 
+                            <p>Built a Volunteer Portal for SAGA Healthcare, allowing volunteer organisations to register and manage their volunteers, clients and requests; volunteers to manage their tasks, availability and services they offer and clients to make requests for assistance from organisations in their area.  The system uses the Google Maps API to display volunteers, clients and tasks on a map and uses AJAX to give users instant feedback on their input.</p>
+                            <p>Wrote an order management application to track the sales and fulfilment process for the sale and delivery of a homecare system.  It allowed users to keep track of stock levels for the components of the system, generate itemised orders, capture the information necessary to allow the installer to configure and test the home automation components prior to installation, record packing information and capture feedback once the system is installed.</p>
+                        </div>
+                    </div>
+
+
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Club Captain</h3>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">January 2011 - March 2012</span></div>
+                    </div>
+                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <div class="subheading mb-3">
+                              North Weald Golf Club
+                            </div>
+                            <p>Being Club Captain of North Weald Golf Club gave me the opportunity to take a break from work and follow life goals to become a Category 1 golfer and shoot a sub par round, both of which were achieved during that time.</p>  
+                            <p>Being Captain of the club was a great honour and involved organising a number of competitions for up to 100 players, a 2 day golf break for 60 players and representing the club in various county events, as well as playing with/talking to as many members through the year to ensure their voices were heard during meetings with the owner and general manager to shape the way the club was run in 2011.</p>
+                            <p>Took over the running of the club website and redesigned it to make it more user friendly and up to date, making it a place where members regularly returned to get information on what’s going on at the club.</p>
+                        </div>
+                    </div>
+
+
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Java Web Developer (Contract)</h3>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">January 2000 - November 2010</span></div>
+                    </div>
+                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <div class="subheading mb-3">
+                              Shell Finance Services
+                            </div>
+                            <p>Shell Finance Services is part of Shell International and provides a central pool of around 700 financial resources to the whole Shell group, covering areas such as Tax, Pensions, Consultancy, Audit, Accounting and Controllers.</p>  
+                            <p>Worked as part of a small team, responsible for developing/maintaining web applications for the finance community, from small 10 user applications to global systems used by more than 10,000 users.  </p>
+                            <p>Worked closely with the business users, involved in all areas of the application lifecycle and all tiers of the application development.  Developed the front end screens using JSP, html, struts, CSS and Javascript, the middle layer business logic in java, using struts and the data access layer using JDBC.  Also responsible for designing the database schemas, writing stored procedures, views and triggers as required.</p>
+                            <p>Key achievements:</p>
+                            <ul>
+                              <li>Responsible for the full application lifecycle of over 10 web applications, dealing directly with customers throughout the process</li>
+                              <li>Worked on a further 15 plus applications, covering major and minor enhancements and ongoing support</li>
+                              <li>Developed SQL Server and Oracle databases, including stored procedures, views and triggers</li>
+                              <li>Key integrator of Purchase Order Processing in Sun Systems financial database</li>
+                              <li>Worked on PO processing component interfacing with SAP financials to an existing application</li>
+                              <li>Part of a global team who produced a consolidated invoice reporting suite for senior management, generating an application data extract, integrating an ftp component and sending report data to a secure server on a scheduled basis</li>
+                              <li>Worked on the JBoss migration from the SilverStream application server, including some application rewrites</li>
+                              <li>Mentored shell staff on use of Silverstream</p>
+                            <ul>
+                        </div>
+                    </div>
+
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Java Web Developer (Contract)</h3>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">June 1999 – January 2000</span></div>
+                    </div>
+                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <div class="subheading mb-3">
+                              Concise Software
+                            </div>
+                            <p>Concise was a small software house, part of Apex Recruitment, writing their internal applications and also contracting out consultants to external clients.  Concise specialised in the java based SilverStream application development environment to write their web applications.</p>  
+                            <p>Worked on a number of SilverStream web applications for internal and external clients.</p>
+                            <p>Key achievements:</p>
+                            <ul>
+                              <li>Developed an internal IT time tracking application to show SilverStream’s ease of use, functionality and reliability.</li>
+                              <li>Wrote a Client Query log facility, enabling CSAM business users to log issues/queries raised by clients and generate reports</li>
+                              <li>Reworked the portfolio reconciliation application to reconcile the Euro conversion of the portfolio data</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Application Developer (Contract)</h3>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">June 1998 – June 1999</span></div>
+                    </div>
+                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <div class="subheading mb-3">
+                              Credit Suisse Asset Management
+                            </div>
+                            <p>Working through Concise software, was part of a small team tasked with investigating the suitability of SilverStream for the banks in-house development projects and also involved in two system reconciliation projects.</p>  
+                            <p>Key achievements: </p>
+                            <ul>
+                              <li>Developed an internal IT time tracking application to show SilverStream’s ease of use, functionality and reliability.</li>
+                              <li>Wrote a Client Query log facility, enabling CSAM business users to log issues/queries raised by clients and generate reports</li>
+                              <li>Reworked the portfolio reconciliation application to reconcile the Euro conversion of the portfolio data</li>
+                            </ul>
+                          </div>
+                    </div>
+
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Application Developer (Contract)</h3>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">January 1994 – June 1998</span></div>
+                    </div>
+                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <div class="subheading mb-3">
+                              Robert Flemings Merchant Bank
+                            </div>
+                            <p>Involved in a number of different roles and applications written in PowerBuilder, accessing Oracle and Sybase databases.</p>  
+                            <p>Key achievements: </p>
+                            <ul>
+                              <li>Part of the Architecture team that drove the way forward for application development</li>
+                              <li>Worked on a Derivatives settlement system in PowerBuilder</li>
+                              <li>Mentored the bank staff on PowerBuilder development</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Application Developer</h3>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">May 1993 – January 1994</span></div>
+                    </div>
+                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <div class="subheading mb-3">
+                              Admiral plc (Software House)
+                            </div>
+                            <p>Worked on site for a major Assurance company as a PowerBuilder specialist, working on an assurance product and mentoring client staff on Powerbuilder development.</p>  
+                        </div>
+                    </div>
+
+
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Application Developer</h3>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">September 1988 – May 1993</span></div>
+                    </div>
+                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <div class="subheading mb-3">
+                              Sema Group (Software House)
+                            </div>
+                            <p>Worked in the financial division in various roles, projects and technologies.</p>  
+                            <p>Key achievements:</p>
+                            <ul>
+                              <li>Team led a team building a Money Market trading system for a major bank</li>
+                              <li>Investigated the use of PowerBuilder for future developments</li>
+                              <li>Worked on an asset management application in PowerBuilder for a small asset management company</li>
+                              <li>Produced an internal divisional newsletter</li>
+                            </ul>
+                        </div>
+                    </div>
+
                 </div>
             </section>
             <hr class="m-0" />
@@ -115,27 +493,39 @@
                     <div class="subheading mb-3">Programming Languages & Tools</div>
                     <ul class="list-inline dev-icons">
                         <li class="list-inline-item"><i class="fab fa-html5"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-js-square"></i></li>
                         <li class="list-inline-item"><i class="fab fa-java" style='color:red'></i></li>
                         <li class="list-inline-item"><i class="fab fa-react"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-node-js"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-sass"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-less"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-wordpress"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-gulp"></i></li>
-                        <li class="list-inline-item"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="{% static 'assets/img/springio-ar21.svg' %}" alt="Spring Framework" /></li>
-                        <li class="list-inline-item"><i class="fab fa-npm"></i></li>
+
+                        <li class="list-inline-item"><img width="70" class="img-fluid img-profile rounded-circle mx-auto mb-2" src="{% static 'assets/img/aws-svgrepo-com.svg' %}" title="AWS" alt="AWS" /></li>
+                        <li class="list-inline-item"><img width="70" class="img-fluid img-profile rounded-circle mx-auto mb-2" src="{% static 'assets/img/springio-ar21.svg' %}" alt="Spring Framework" title="Spring Framework"/></li>
+                        <li class="list-inline-item"><img width="50" class="img-fluid img-profile rounded-circle mx-auto mb-2" src="{% static 'assets/img/postgresql-logo-svgrepo-com.svg' %}" alt="PostgreSQL" title="PostgreSQL"/></li>
+                        <li class="list-inline-item"><img width="50" class="img-fluid img-profile rounded-circle mx-auto mb-2" src="{% static 'assets/img/docker-svgrepo-com.svg' %}" alt="Docker" title="Docker"/></li>
+                        <li class="list-inline-item"><img width="50" class="img-fluid img-profile rounded-circle mx-auto mb-2" src="{% static 'assets/img/scala-svgrepo-com.svg' %}" alt="Scala" title="Scala"/></li>
+                        <li class="list-inline-item"><img width="50" class="img-fluid img-profile rounded-circle mx-auto mb-2" src="{% static 'assets/img/groovy-svgrepo-com.svg' %}" alt="Groovy" title="Groovy"/></li>
+                        <li class="list-inline-item"><img width="50" class="img-fluid img-profile rounded-circle mx-auto mb-2" src="{% static 'assets/img/grails-svgrepo-com.svg' %}" alt="Grails" title="Grails Framework"/></li>
+                        <li class="list-inline-item"><img width="50" class="img-fluid img-profile rounded-circle mx-auto mb-2" src="{% static 'assets/img/cucumber-svgrepo-com.svg' %}" alt="Cucumber" title="Cucumber" /></li>
+                        <li class="list-inline-item"><img width="50" class="img-fluid img-profile rounded-circle mx-auto mb-2" src="{% static 'assets/img/Liquibase.svg' %}" alt="Liquibase" title="Liquibase"/></li>
+
+
+
                     </ul>
-                    <div class="subheading mb-3">Workflow</div>
+                    <div class="subheading mb-3">Areas of Expertise</div>
                     <ul class="fa-ul mb-0">
                         <li>
                             <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Mobile-First, Responsive Design
+                            Microservice / API Design & Development
                         </li>
                         <li>
                             <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Cross Browser Testing & Debugging
+                            Code Reviews and Mentoring
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Database Design and Tuning
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Automated Testing
                         </li>
                         <li>
                             <span class="fa-li"><i class="fas fa-check"></i></span>
@@ -149,18 +539,9 @@
                 </div>
             </section>
             <hr class="m-0" />
-            <!-- Interests-->
-            <section class="resume-section" id="interests">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Interests</h2>
-                    <p>Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.</p>
-                    <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.</p>
-                </div>
-            </section>
-            <hr class="m-0" />
         </div>
         <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
         <!-- Core theme JS-->
         <script src="{% static 'js/scripts.js' %}"></script>
     </body>
